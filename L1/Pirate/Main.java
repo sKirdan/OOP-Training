@@ -1,5 +1,7 @@
 package L1.Pirate;
 
+import L1.Pirate.logic.*;
+
 public class Main {
     public static void main(String[] args) {
         Bar bar = new Bar();
@@ -14,7 +16,7 @@ public class Main {
 
         ship.info();
 
-        Scena_1.go(ship);
+        Act.Scena_1.go(ship);
 
         ship.info();
 
