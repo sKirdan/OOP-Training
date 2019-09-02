@@ -1,4 +1,4 @@
-package Pirate.logic;
+package L1.Pirate.logic;
 
 public class Act {
     public static class Scena_1 {
