@@ -5,9 +5,12 @@ public class Pirate {
     Pirate(String name){
         this.name = name;
     }
+    private String runk;
+    private String weight;
 
     @Override
     public String toString() {
         return name;
+
     }
 }
