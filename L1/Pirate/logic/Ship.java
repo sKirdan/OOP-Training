@@ -7,15 +7,12 @@ public class Ship {
     private Pirate[] pirates;
     private int gold;
     private String name;
-    private String capacity;
-
-    public Ship(Pirate cap) {
-        this.cap = cap;
-    }
+    private int capacity;
 
 
     public Ship(String name){
         this.name = name;
+        capacity = 250;
     }
 
     public void setCap(Pirate cap) {
@@ -42,7 +39,7 @@ public class Ship {
         this.gold = gold;
     }
 
-    public String getCapacity() {
+    public int getCapacity() {
         return capacity;
     }
 
