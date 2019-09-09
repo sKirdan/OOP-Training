@@ -1,5 +1,6 @@
 package L1.Pirate.logic;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Ship {
@@ -19,8 +20,8 @@ public class Ship {
         this.cap = cap;
     }
 
-    public void setPirates(Pirate[] pirates) {
-        this.pirates = pirates;
+    public void setPirates(ArrayList<Pirate> pirates) {
+        this.pirates = pirates.toArray(new Pirate[0]);
     }
 
     public Pirate getCap() {

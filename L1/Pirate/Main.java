@@ -2,6 +2,8 @@ package L1.Pirate;
 
 import L1.Pirate.logic.*;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Bar bar = new Bar();
@@ -9,7 +11,7 @@ public class Main {
 
         Ship ship = buhta.getShip();
         Pirate cap = bar.gatCap();
-        Pirate[] pirates = bar.getPirates();
+        ArrayList<Pirate> pirates = bar.getPirates();
 
         ship.setCap(cap);
         ship.setPirates(pirates);
@@ -20,5 +22,8 @@ public class Main {
 
         ship.info();
 
+    }
+
+    private void go(Ship ship) {
     }
 }
